@@ -13,9 +13,6 @@ class Building
     /** The array of floors in the building */
     public floors: Floor[];
 
-    /** The array of elevators in the building */
-    public elevators: Elevator[];
-
     /**
      * @constructor - building
      * @param numfloors - the number of floors in the building

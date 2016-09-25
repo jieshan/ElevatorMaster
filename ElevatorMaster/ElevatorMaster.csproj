@@ -21,7 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <ApplicationInsightsResourceId>/subscriptions/541e0009-b344-4f92-b0f3-9ef22c76dd0f/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/ElevatorMaster</ApplicationInsightsResourceId>
-    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.4</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -111,6 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Contents\Building.ts" />
+    <TypeScriptCompile Include="Contents\ControlRoom.ts" />
     <TypeScriptCompile Include="Contents\Elevator.ts" />
     <TypeScriptCompile Include="Contents\ElevatorMaster.ts" />
     <TypeScriptCompile Include="Contents\Floor.ts" />
